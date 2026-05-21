@@ -22,7 +22,7 @@ public class PerformanceAspect {
         } finally {
             long endTime = System.currentTimeMillis();
             long duration = endTime - startTime;
-            System.out.println("✓ PERF: [" + className + "." + methodName + "] thực thi trong " + duration + "ms");
+            System.out.println(" PERF: [" + className + "." + methodName + "] thực thi trong " + duration + "ms");
         }
 
         return result;
